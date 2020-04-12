@@ -11,7 +11,13 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.red[900],
         appBar: AppBar(
-          title: Text('Dicee'),
+          title: Text(
+            'Dicee',
+            style: TextStyle(
+              fontFamily: 'Pacifico',
+              fontSize: 27.0,
+            ),
+          ),
           backgroundColor: Colors.red[900],
         ),
         body: DicePage(),
